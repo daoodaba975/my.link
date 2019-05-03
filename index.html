@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Daooda BA | My Link</title>
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <span class="dark">DARK</span>
+        <div class="button"></div>
+        <span class="light">LIGHT</span>
+    </div>
+    <div class="menu">
+        <ul>
+            <a href="https://github.com/daooda-galsen-dev" target="_blank"><i class="fab fa-github-alt"></i> Github</a>
+            <a href="https://codepen.io/Daooda/" target="_blank"><i class="fab fa-codepen"></i> Codepen</a>
+            <a href="https://www.linkedin.com/in/ba-daouda-1605/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://galsendev.blogspot.com/" target="_blank"><i class="fab fa-blogger"></i> Mon Blog</a>
+            <a href="https://galsendevlab.sn/" target="_blank"><i class="fas fa-code"></i> Portofolio</a>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(".container").on("click", () => {
+            $("body").toggleClass("light-theme");
+        });
+    </script>
+
+</body>
+</html>

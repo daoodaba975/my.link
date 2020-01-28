@@ -1,2 +1,2 @@
 # My Link
-small web page for my link to others plateforms.
+Petite page WEB pour mes liens vers d'autres plateformes.
